@@ -1,10 +1,3 @@
-// Only modify this file to include
-// - function definitions (prototypes)
-// - include files
-// - extern variable definitions
-// In the appropriate section
-
-
 #ifndef _Wall_E_H_
 #define _Wall_E_H_
 #include "Arduino.h"
@@ -47,7 +40,7 @@ float calculateAvgVelocity(float distance1, float distance2, float time){
 
 void printVelocity(float velocity, rgb_lcd lcd){
         lcd.print(velocity);
-	lcd.write("cm/s");
+  lcd.write("cm/s");
 }
 
 
